@@ -24,7 +24,7 @@ EOF
   mkdir $datadir
   mount -t tmpfs -o size=2g tmpfs $datadir
   rsync -av --progress /var/lib/mysql/ $datadir
-  echo "datadir=${escaped_datadir}" >> /etc/mysql/mysql.conf.d/mysqld.cnf
+  echo "datadir=${datadir}" >> /etc/mysql/mysql.conf.d/mysqld.cnf
   service mysql start
 }
 
