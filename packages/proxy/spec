@@ -4,4 +4,4 @@ name: proxy
 dependencies: []
 
 files:
-  - proxy/envoy-a2a1e3eed4214a38608ec223859fcfa8fb679b14-1.19.1.tgz
+  - proxy/envoy-fccfb7d2cf663d1af898d1df076a81225d87b790-1.19.5.tgz
